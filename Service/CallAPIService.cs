@@ -22,7 +22,7 @@ namespace MQConsumer.Service
             string json = JsonConvert.SerializeObject(logInfo);
             HttpContent contentPost = new StringContent(json, Encoding.UTF8, "application/json");
             client.Timeout = TimeSpan.FromSeconds(2000);
-            HttpResponseMessage response = await client.PostAsync("Write", contentPost);
+            HttpResponseMessage response = await client.PostAsync("WriteOracle", contentPost);
             //var result = .GetAwaiter().GetResult();
             var result = response.Content.ReadAsStringAsync();
         }

@@ -40,7 +40,7 @@ namespace MQConsumer.Service
                 {
                     CallAPIService.RemoteDBLog(logInfo);
                 }
-                sw.WriteLine(nowTime + $" [{logInfo.Process}][{logInfo.MachineCode ?? "尚未登入"}] ----> ");
+                sw.WriteLine(nowTime + $" [{logInfo.Process}][{logInfo.MachineCode ?? "無機碼"}] ----> ");
                 sw.WriteLine(logInfo.Message);
                 if (x == "回傳" || x == "失敗" || x == "登入")
                     sw.WriteLine("____________________________________________________________________________");

@@ -49,7 +49,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>dHJ35Prk0tlrokMfViYQemUrzd9lEHPvzczgVpFbqJA=</dsig:DigestValue>
+        <dsig:DigestValue>yTvi8dhoWrFyqkLcldKxW4S/Ra5tEk8efxgVu755I9g=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -149,13 +149,13 @@
       </hash>
     </dependentAssembly>
   </dependency>
-  <file name="MQConsumer.exe.config" size="1824">
+  <file name="MQConsumer.exe.config" size="1797">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>YiohkDo5YTe6F8Seal6YroE2SKWUfneX4sgvDNeJjWE=</dsig:DigestValue>
+      <dsig:DigestValue>4fMQWbPTvN9tNIvLR9qCTyy7Zdu7pBzTQE3G24wGgCU=</dsig:DigestValue>
     </hash>
   </file>
 </asmv1:assembly>
